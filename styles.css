@@ -80,7 +80,7 @@ a {
   transition-timing-function: ease;
   border-color: #141115;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 618px) {
   .navbar ul {
     flex-direction: column;
   }
