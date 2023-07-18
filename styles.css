@@ -80,6 +80,11 @@ a {
   transition-timing-function: ease;
   border-color: #141115;
 }
+@media only screen and (max-width: 500px) {
+  .navbar ul {
+    flex-direction: column;
+  }
+}
 
 /* SEARCH */
 .search {
@@ -89,6 +94,11 @@ a {
   margin-right: auto;
   align-items: center;
   gap: 0.5rem;
+}
+@media only screen and (max-width: 350px) {
+  .search {
+    flex-direction: column;
+  }
 }
 
 /* MESSAGE SECTION */
