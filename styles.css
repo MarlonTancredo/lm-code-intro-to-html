@@ -152,6 +152,7 @@ a {
 }
 .form-section input {
   height: 3rem;
+  border-radius: 5px;
 }
 .form-section button {
   max-width: 20rem;
