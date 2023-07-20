@@ -90,6 +90,7 @@ a {
 .search-section input {
   min-width: 100%;
   border-radius: 5px;
+  border: 1px #141115 solid;
   height: 3rem;
 }
 @media only screen and (max-width: 480px) {
@@ -153,6 +154,7 @@ a {
 .form-section input {
   height: 3rem;
   border-radius: 5px;
+  border: 1px #141115 solid;
 }
 .form-section button {
   max-width: 20rem;
