@@ -1,6 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap");
 
 /* GLOBAL */
+
+:root {
+  --black: #141115;
+  --hoverBlack: #141115a2;
+  --white: #eff7f6;
+  --red: #f94144;
+}
+
 body,
 li,
 a {
@@ -9,7 +17,7 @@ a {
   align-items: center;
   gap: 2rem;
   font-family: "Open Sans", sans-serif;
-  color: #141115;
+  color: var(--black);
   list-style: none;
   text-decoration: none;
 }
@@ -21,18 +29,18 @@ a {
   cursor: pointer;
   border: none;
   border-radius: 5px;
-  background-color: #141115;
-  color: #eff7f6;
+  background-color: var(--black);
+  color: var(--white);
   transition: 0.6s;
 }
 .button:hover {
   transition-timing-function: ease;
-  background-color: #141115a2;
+  background-color: var(--hoverBlack);
 }
 
 /* CONTAINER */
 .container {
-  box-shadow: 0 6px 20px 0 #141115;
+  box-shadow: 0 6px 20px 0 var(--black);
   border-radius: 5px;
   padding: 1rem;
   max-width: 45rem;
@@ -50,7 +58,7 @@ a {
 }
 .header a:hover {
   transition-timing-function: ease;
-  color: #f94144;
+  color: var(--red);
 }
 
 /* NAVBAR */
@@ -71,7 +79,7 @@ a {
 }
 .navbar a:hover {
   transition-timing-function: ease;
-  border-color: #141115;
+  border-color: var(--black);
 }
 @media only screen and (max-width: 618px) {
   .navbar ul {
@@ -90,7 +98,7 @@ a {
 .search-section input {
   min-width: 100%;
   border-radius: 5px;
-  border: 1px #141115 solid;
+  border: 1px var(--black) solid;
   height: 3rem;
 }
 @media only screen and (max-width: 480px) {
@@ -154,7 +162,7 @@ a {
 .form-section input {
   height: 3rem;
   border-radius: 5px;
-  border: 1px #141115 solid;
+  border: 1px var(--black) solid;
 }
 .form-section button {
   max-width: 20rem;
